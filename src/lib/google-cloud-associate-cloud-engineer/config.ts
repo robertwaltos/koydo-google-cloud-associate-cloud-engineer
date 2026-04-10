@@ -1,0 +1,45 @@
+// Google Cloud Associate Cloud Engineer Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM156",
+  slug: "google-cloud-associate-cloud-engineer",
+  name: "Google Cloud Associate Cloud Engineer",
+  fullName: "ACE",
+  alias: "ACE",
+  family: "Google Cloud Cert",
+  category: "Professional certification",
+  subcategory: "Cloud engineering",
+  country: "Global",
+  region: "Global",
+  languages: ["English + localizations"],
+  estimatedAnnualTakers: "smaller",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "20-45",
+  targetUser: "Tech professional",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ/MSQ"],
+  adaptivity: "Linear",
+  sections: "50 questions",
+  scoringMode: "Scaled/pass",
+  essayOrSpeaking: "No",
+  ipRisk: "Medium",
+  contentReuse: "cloud_administration",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Low",
+  tier: "Tier 7",
+  launchWave: "Wave 9",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
